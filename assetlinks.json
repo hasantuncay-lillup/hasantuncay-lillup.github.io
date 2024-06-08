@@ -6,21 +6,4 @@
     "sha256_cert_fingerprints":
     ["A1:98:BC:85:28:EA:54:BB:08:21:FD:51:DC:D6:A3:13:A5:9C:CB:6D:5C:31:38:FE:50:3C:5A:FC:18:2C:C9:11"]
   }
-},
-{
-  "relation": ["delegate_permission/common.get_login_creds"],
-  "target": {
-    "namespace": "web",
-    "site": "https://hasan-tuncay-lillup.github.io"
-  }
-},
-{
-  "relation": ["delegate_permission/common.get_login_creds"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "com.app.lillup",
-    "sha256_cert_fingerprints":
-    ["A1:98:BC:85:28:EA:54:BB:08:21:FD:51:DC:D6:A3:13:A5:9C:CB:6D:5C:31:38:FE:50:3C:5A:FC:18:2C:C9:11"]
-  }
 }]
-
