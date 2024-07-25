@@ -1,25 +1,36 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "com.app.lillup",
-    "sha256_cert_fingerprints":
-    ["A1:98:BC:85:28:EA:54:BB:08:21:FD:51:DC:D6:A3:13:A5:9C:CB:6D:5C:31:38:FE:50:3C:5A:FC:18:2C:C9:11"]
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.app.lillup",
+      "sha256_cert_fingerprints": [
+        "A1:98:BC:85:28:EA:54:BB:08:21:FD:51:DC:D6:A3:13:A5:9C:CB:6D:5C:31:38:FE:50:3C:5A:FC:18:2C:C9:11",
+        "BC:67:EC:52:65:64:EB:6A:4C:7D:56:A2:7D:AD:85:37:9A:F0:21:94:42:F2:A5:B7:25:44:07:62:50:21:87:CD"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "web",
+      "site": "https://hasantuncay-lillup.github.io"
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.app.lillup",
+      "sha256_cert_fingerprints": [
+        "A1:98:BC:85:28:EA:54:BB:08:21:FD:51:DC:D6:A3:13:A5:9C:CB:6D:5C:31:38:FE:50:3C:5A:FC:18:2C:C9:11"
+      ]
+    }
   }
-},
-{
-  "relation": ["delegate_permission/common.get_login_creds"],
-  "target": {
-    "namespace": "web",
-    "site": "https://hasantuncay-lillup.github.io"
-  }
-},
-{
-  "relation": ["delegate_permission/common.get_login_creds"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "com.app.lillup",
-    "sha256_cert_fingerprints":
-    ["A1:98:BC:85:28:EA:54:BB:08:21:FD:51:DC:D6:A3:13:A5:9C:CB:6D:5C:31:38:FE:50:3C:5A:FC:18:2C:C9:11"]
-  }
-}]
+]
